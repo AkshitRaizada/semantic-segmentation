@@ -18,15 +18,15 @@ Please email me for the full report
 
 The following instructions will set up the repository for training and inference. It creates a `data` directory, which is used to store training data. Steps 3 and 4 will download and unzip the *[Yamaha-CMU Off-Road Dataset](https://theairlab.org/yamaha-offroad-dataset/)* to the `data` directory.
 
-1. `git clone https://github.com/nmhaddad/semantic-segmentation.git`
+1. `git clone https://github.com/nmhaddad/semantic-segmentation.git && cd semantic-segmentation`
 2. `mkdir data && cd data`
-3. `wget https://cmu.box.com/s/3fngoljhcwhqf2z5cbepufh331qtesxt`
-4. `unzip yamaha_v0.zip`
+3. `wget https://public.boxcloud.com/d/1/b1!5_MHlrEWg6Z_gOxh0mB5s7Bi3-Bv9hPfTn-vwED9A0EzxO6QINDkqFiOimj4xAe0-N4velYsHF4lINbhbhhiktLAmTDEljb3aix0LtEf0-DaP1Ni_kaInfj2-wPQvSSDqfCa7FTcvqq5cEkb5f1UKoXqmgM9i4NtxP_j3eaYaTz4ENWFtXcFOQzxDPuV6xGi2Rp9jeCA4mAaMPfnoU3C62MhDo9ICt8ik0OJRQRBjsjYE0eQDlBJKj8TaGoILblrWPtKrOm5RewiAMH1is9iSqJwl0c-xSSeY_3Hr9HB0jA1rQVlie5rHn2Xq3J4gvRzUZcQ5FxXQSvKDzAuSdKyO4M3CRZM_VZVy4lzD6zL21SlYQVlRCygAUNi5nyR-kh4t6HrO064PbhNJvl6a18ZTWf3vzLcAxEeN2BMvHEiXPDlksniXOkPjN3W-QEKV9wRLU5C8xAl594BXKlgk63vd9oxoNadM6T2NZNq6xJ4IQwukqlRx5IuAnk7NiBhMmxGN932XDOtgDvyY5mSw5bvfFnG7jMVmR6lOXXT3bgbkvMDMtIXfUqvn2jWffoIUfyAi0hv8BdN0woRtrLJLGB6DEl-XN1jPaUPv_X1Ax5ipj853AI4CkYDA9K_iquTO-EwCD2D9nnOMIgXTqnicSYSNDximWJAEQe53pWjEan7yq3a44i2RkyUJuZD7UCNPdwmoBM1aRRaR_fmct4u2tKnAbGKvQRc5YAO5xSvI9jZRcTrCPw9qZtHRrjp3CiYaLFNI7IUY0UIjvPzvHqyzjbaIsaKmm4oYpcTP_x75JE5YAzjvK3VL5Q_6HqdQQpHvfOOOBxv_M68Fi-c0AwySWgXvcW8kWYYljmdOmRnSSn0KFtxFByZ-cc2Ej1Gse8xe-wuaAel-IsdBfQfXfqSeyNh3DxIX3uw0HYRu3e7gr_vw3rJnd2YW4t-g2bp2I1XKM0x-2jWo1jVvV5tSYHJA8JkQacHBbchi1_hRJzEuTD_vCZJKCyGajhY9hVl2S9x0T4Ji13ShHHSODLgj5CkPcED7g5ZD5BdOUoSKtncnaMGvJLJ6vXsDwk2v41E6g5DTQqLI9AruGKAt49P8XOKWcF_jGB2ZcqZAMCXUfSNGxUxs1tx-Alz8UJZlvw21ylJ_cn3ln8sccf7_Oe7cbQPSYUtsxh1NXu1d1Q-8cgyt8jkDhaJa7Bszm1iqmdiCoRCQAORLnAzksr1aRPQaX_wX3lyvb8DH5J1yJbg4DUfOpucjVElNGbG7sR5cKB5z1VbYr-OlQ../download`
+4. `unzip yamaha_seg.tar.gz`
 
 ### Installing Dependencies with Anaconda
 The simpliest way to get this repo up and running is to use our anaconda `environment.yaml` file:
 
-`conda create -f environment.yaml`
+`conda env create -f environment.yaml`
 
 To activate, run `conda activate semantic-segmentation`.
 
