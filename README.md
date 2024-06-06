@@ -29,7 +29,8 @@ The simpliest way to get this repo up and running is to use our anaconda `enviro
 `conda env create -f environment.yaml`
 
 To activate, run `conda activate semantic-segmentation`.
-
+`pip install pytorch-lightning`
+`pip install opencv-contrib-python`
 ## Models
 
 [Pretrained Models](https://drive.google.com/drive/folders/1Gmk8vOF9qBNMg3-TEL-st6KWieB4Af5e?usp=sharing)
